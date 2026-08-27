@@ -22,5 +22,6 @@ public class FirstPro {
         t2.start();//this Thread also created by main Thread
         //two Threads are created Thread-0 and Thread-1
         //the Thread schedular decides which thread used to execute the program....
+        //main method only executed by main Thread
     }
 }

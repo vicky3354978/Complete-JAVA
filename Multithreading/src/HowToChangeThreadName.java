@@ -8,7 +8,7 @@ class MThread implements Runnable
 public class HowToChangeThreadName {
     static void main() {
         Thread t=new Thread(new MThread());
-        System.out.println("current executing Thread is :"+Thread.currentThread().getName());
+        System.out.println("current  executing Thread is :"+Thread.currentThread().getName());
         String name=t.getName();
         System.out.println("created Thread name is :"+name);
         t.setName("myThread-0");

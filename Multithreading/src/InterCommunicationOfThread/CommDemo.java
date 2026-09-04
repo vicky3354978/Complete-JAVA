@@ -20,6 +20,7 @@ class Guest extends Thread{
                 System.out.println("dinner is not ready please wait ");
                 try {
                     hall.wait();
+
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);
                 }

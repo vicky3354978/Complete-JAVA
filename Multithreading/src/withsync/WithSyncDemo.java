@@ -2,7 +2,11 @@ package withsync;
 
 class BankAccount {
     int bal=10000;
-    synchronized public void withDraw(int amount) {
+  synchronized public void withDraw(int amount) {
+      /*synchronized (this)
+      {
+
+      }*/ //we can write synchronized block like this and add our critical section in this bloc
         if(amount<=bal)
         {
             System.out.println(Thread.currentThread().getName()+" is going to withdraw Rs."+amount+" total balance "+bal);
@@ -11,7 +15,13 @@ class BankAccount {
             } catch (InterruptedException e) {
                 System.out.println("interrupted error");
             }
+         /*   synchronized (this)
+            {
+                bal=bal-amount;
+
+            }*/
             bal=bal-amount;
+
             System.out.println(Thread.currentThread().getName()+" completed withdraw remaining balance is :Rs."+bal);
             System.out.println();
         }

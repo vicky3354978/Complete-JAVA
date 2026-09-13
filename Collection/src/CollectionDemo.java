@@ -14,6 +14,14 @@ public class CollectionDemo {
         list.add(50);
         list.add(10);
         System.out.println(list);
+       /* in array;*/
+        int arr[]={1,2,3,4,5};
+        System.out.println(arr[3]);
+        //if i want to choose particular element of array we use index number
+        //but in arraylist we use list.get(3);
+
+        System.out.println(list.get(3));
+
 
     }
 

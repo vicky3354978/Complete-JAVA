@@ -23,6 +23,19 @@ public class CollectionDemo {
         System.out.println(list.get(3));
 
 
+        /*List<Integer> list=new ArrayList<>();-->default array;
+        List<Integer> list=new ArrayList<>(20);-->initial capacity of array;
+
+        is mai ArrayList class ke don constructor ho te hai ak capacity leta hai
+
+
+
+        creating array list form other collection
+        how??
+        List<Integer> list=new ArrayList(pass here otherList);
+*/
+
+
     }
 
 }

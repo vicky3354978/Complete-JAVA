@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class ArrayListBasicProgram {
     static void main() {
@@ -40,5 +38,31 @@ public class ArrayListBasicProgram {
         System.out.println(convertedList);
         convertedList.remove(1);
         System.out.println(convertedList);
+
+        //how to traverse arraylist.....
+
+        for(int i=0; i<name.size(); i++)
+        {
+            System.out.println(name.get(i));
+        }
+
+
+        //if I want to sort array list so we use collections class which final class it contain same common methods
+        //there is one sorting method which is sort....
+
+
+        Collections.sort(list);
+        System.out.println(list);
+
+        /*Java ki Collections.sort() method ki baat kar ra he ho.
+        Modern Java mein:
+        Collections.sort(list);
+        internally TimSort use kar ti hai for List implementations that support the relevant sorting path.
+        TimSort kya hai?
+                TimSort ek hybrid sorting algorithm hai jo mainly:
+        Merge Sort
+        Insertion Sort
+        ke ideas ko combine kar ta hai.
+*/
     }
 }

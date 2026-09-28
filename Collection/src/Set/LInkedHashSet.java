@@ -11,7 +11,7 @@ public class LInkedHashSet {
         set.add(10);
         set.add(20);
         set.add(30);
-        set.add(10);
+        set.add(10);//duplicates are not allowed
         System.out.println(set);
     }
 }

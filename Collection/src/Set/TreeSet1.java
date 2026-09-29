@@ -25,6 +25,6 @@ public class TreeSet1 {
         Student s2=new Student(2,"vikas");
         treeSet.add(s1);
         treeSet.add(s2);
-        System.out.println(treeSet);
+        System.out.println(treeSet);//
     }
 }

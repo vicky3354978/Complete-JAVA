@@ -13,7 +13,7 @@ public class RemoveDuplicatesFromArrayList {
         //syntax of foreach loop
         /*for(Wrapper class variable: list name)
         {
-
+//
         }*/
         for(Integer data:a)
         {

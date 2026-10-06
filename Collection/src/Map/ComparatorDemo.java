@@ -40,6 +40,9 @@ public class ComparatorDemo {
         map.put(new Employee(4,"vishal",10000),"security");
         map.put(new Employee(9,"vivek",10000),"it");
        // return o1.id-o2.id; ------->ye likhne se id ke according sorting ho rahi hai..
+        //this is for increasing order
+        //return o2.id-o1.id;
+        //this is for decreasing order
         System.out.println(map);
 
     }

@@ -12,9 +12,10 @@ public class TreeMapDemo {
         map.put(9,"t");
         map.put(8,"b");
         System.out.println(map);
-        map.put(null,"n");
+        //map.put(null,"n");
         System.out.println(map);
         //we can not store null as a key value
+        //because tree sort the key element by comparable
 
     }
 }

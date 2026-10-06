@@ -13,7 +13,7 @@ public class LinkedHashMapDemo{
         map.put(5,"b");
         // it contain duplicate value but unique key
         //if i want to again use same key which is persent in map
-        // it will be over write
+        // it will be over write.
         map.put(1,"N");
         //in position of 1 value is A which is overwrite by N
         // output is : {1=N, 2=b, 10=f, 4=c, 5=b}

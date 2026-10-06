@@ -11,6 +11,9 @@ public class MapDemo {
         System.out.println();
 
         emp.put(102,"vivek");
+        emp.put(null,"vishal");
+        //overwrite the value of vishal to vineet 
+        emp.put(null,"vineet");
         //in this case key is unique but data is over write
         //phele 102 value pe vikas tha but ab vikas ke upper overwrite ho jaye ga or vivek aa jaye ga.
 
@@ -30,6 +33,13 @@ public class MapDemo {
         System.out.println(orDefault);
         //this is important method because it frequently used in DSA
         //ye key value ka data agar map mai present hai toh woh data de dega
-        // agar nahi hai toh default value de dega ....
+        // agar na hi hai toh default value de dega ....
+
+        //how to print hashmap
+        for(Map.Entry<Integer,String> entry: emp.entrySet())
+        {
+            System.out.println(entry.getKey()+" ---> "+entry.getValue());
+        }
+
     }
 }

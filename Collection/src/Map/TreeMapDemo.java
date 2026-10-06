@@ -11,6 +11,7 @@ public class TreeMapDemo {
         map.put(4,"r");
         map.put(9,"t");
         map.put(8,"b");
+        map.put(8,"c");
         System.out.println(map);
         //map.put(null,"n");
         System.out.println(map);

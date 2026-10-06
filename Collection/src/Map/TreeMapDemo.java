@@ -15,7 +15,7 @@ public class TreeMapDemo {
         //map.put(null,"n");
         System.out.println(map);
         //we can not store null as a key value
-        //because tree sort the key element by comparable
+        //because tree sort the key element by comparable.
 
     }
 }

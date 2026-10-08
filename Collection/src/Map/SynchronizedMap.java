@@ -19,6 +19,5 @@ public class SynchronizedMap {
       /*  concurrentHashMap.put(null,"vicky");
         concurrentHashMap.put(2,null);*/
         //these are invalid terms because concurrentHashmap does not contain null value and null key value..
-
     }
 }
